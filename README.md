@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# Smart-Cooking
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**Smart-Cooking** to webowa aplikacja w **Vue.js**, która łączy gotowanie z aktualnymi promocjami w sklepach.  
+Projekt ma charakter **edukacyjny i niekomercyjny**. Backend stanowi [Promotion-API]([../promotion-api](https://github.com/AgnieszkaMaleszka/Promotion-api)).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## Status projektu
+🚧 **Work in progress** – aplikacja jest w trakcie tworzenia. Część funkcji działa, a kolejne są w planach.
+
+---
+
+## Funkcje
+
+### Już dostępne
+- pobieranie listy sklepów i ich gazetek z Promotion-API,  
+- wyświetlanie gazetek i przeglądanie ich stron,  
+- tworzenie listy zakupów,  
+- oznaczanie produktów jako **kupione / niekupione**,  
+- dodawanie do listy zakupów za pomocą wycinka z gazetki,  
+- wyznaczanie najkrótszej trasy do sklepu (Leaflet).  
+
+---
+
+## Technologie
+- **Frontend:** Vue.js  
+- **Backend:** [Promotion-API](../promotion-api) (Spring Boot + scraping)  
+- **Mapy:** Leaflet  
+
+---
