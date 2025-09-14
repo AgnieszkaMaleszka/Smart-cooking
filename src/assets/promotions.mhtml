@@ -1,0 +1,163 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8080/promotions?shopName=Intermarche&url=https://www.gazetkowo.pl/gazetki/intermarche
+Subject: 
+Date: Sat, 2 Aug 2025 16:58:06 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--B2R7Ya9KZodQA3OR78HgPv8NYCSFWyXUSgEpY2PjqL----"
+
+
+------MultipartBoundary--B2R7Ya9KZodQA3OR78HgPv8NYCSFWyXUSgEpY2PjqL----
+Content-Type: text/html
+Content-ID: <frame-7808692A774CF8FBBF35D486A243F354@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:8080/promotions?shopName=Intermarche&url=https://www.gazetkowo.pl/gazetki/intermarche
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d4e923=
+b6-844a-4149-869f-066ea7172d0e@mhtml.blink" /><link id=3D"chromealerabat-li=
+nk" rel=3D"stylesheet" type=3D"text/css" href=3D"chrome-extension://dacdino=
+icboceafielngnmjjplncljhj/content.css"></head><body><h1>Whitelabel Error Pa=
+ge</h1><p>This application has no explicit mapping for /error, so you are s=
+eeing this as a fallback.</p><div id=3D"created">Sat Aug 02 16:58:02 CEST 2=
+025</div><div>There was an unexpected error (type=3DInternal Server Error, =
+status=3D500).</div><div>HTTP error : Response{protocol=3Dh2, code=3D404, m=
+essage=3D, url=3Dhttps://www.gazetkowo.pl/gazetki/intermarche}</div><div st=
+yle=3D"white-space:pre-wrap;">java.io.IOException: HTTP error : Response{pr=
+otocol=3Dh2, code=3D404, message=3D, url=3Dhttps://www.gazetkowo.pl/gazetki=
+/intermarche}
+	at com.example.promotion_api.service.PromotionService.findPromotionalLeafl=
+et(PromotionService.java:64)
+	at com.example.promotion_api.controller.PromotionController.getPromotional=
+Leaflets(PromotionController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Direct=
+MethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(=
+InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeFor=
+Request(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableH=
+andlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHan=
+dlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHan=
+dlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter=
+.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(Dispatcher=
+Servlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherS=
+ervlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(Framewo=
+rkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet=
+.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServl=
+et.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Applic=
+ationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFil=
+terChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Applic=
+ationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFil=
+terChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(Re=
+questContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerReq=
+uestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Applic=
+ationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFil=
+terChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormC=
+ontentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerReq=
+uestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Applic=
+ationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFil=
+terChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal=
+(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerReq=
+uestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Applic=
+ationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFil=
+terChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperVal=
+ve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextVal=
+ve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(Authenticato=
+rBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.jav=
+a:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.jav=
+a:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve=
+.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:=
+344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:3=
+98)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight=
+.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractPr=
+otocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoin=
+t.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.=
+java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolE=
+xecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPool=
+Executor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThre=
+ad.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</div></body><app-ls-content ng-version=3D"17.3.7"><template shadowmode=3D"=
+open"><!----><app-similar-tools _nghost-ng-c2697620354=3D""><!----><!----><=
+!----></app-similar-tools><!----><!----></template></app-ls-content></html>
+------MultipartBoundary--B2R7Ya9KZodQA3OR78HgPv8NYCSFWyXUSgEpY2PjqL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://dacdinoicboceafielngnmjjplncljhj/content.css
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; src: local(""), url("fonts/open-sans-v18-latin-ext_latin-300.woff2") form=
+at("woff2"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; src: local(""), url("fonts/open-sans-v18-latin-ext_latin-regular.woff2") =
+format("woff2"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; src: local(""), url("fonts/open-sans-v18-latin-ext_latin-600.woff2") form=
+at("woff2"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; src: local(""), url("fonts/open-sans-v18-latin-ext_latin-700.woff2") form=
+at("woff2"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; src: local(""), url("fonts/open-sans-v18-latin-ext_latin-800.woff2") form=
+at("woff2"); }
+------MultipartBoundary--B2R7Ya9KZodQA3OR78HgPv8NYCSFWyXUSgEpY2PjqL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d4e923b6-844a-4149-869f-066ea7172d0e@mhtml.blink
+
+@charset "utf-8";
+
+[_nghost-ng-c2697620354] { font-family: "Open Sans", sans-serif; color: rgb=
+(18, 18, 18); }
+------MultipartBoundary--B2R7Ya9KZodQA3OR78HgPv8NYCSFWyXUSgEpY2PjqL------
